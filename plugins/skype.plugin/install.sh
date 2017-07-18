@@ -14,5 +14,4 @@ if [[ ! -f "$FILE" ]]; then
 	exit 1
 fi
 
-dnf -y install gtk2-engines.i686
 dnf -y install $FILE
